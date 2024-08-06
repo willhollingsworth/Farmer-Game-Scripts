@@ -13,3 +13,4 @@ while True:
 		move(North)
 	move(East)	
 	
+quick_print
