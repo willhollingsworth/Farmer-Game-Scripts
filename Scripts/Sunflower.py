@@ -30,8 +30,8 @@ while True:
         if not ready_for_harvest:
             move(East)	
         all_grown = planted_count > area 
-        quick_print('row complete',all_grown, highest_petals, planted_count, ready_for_harvest)
-    quick_print('harvest ready',current_petals, highest_petals, planted_count)
+        # quick_print('row complete',all_grown, highest_petals, planted_count, ready_for_harvest)
+    quick_print('harvest ready, current petal:',current_petals,' ,highest petal:', highest_petals, ' ,plant count:', planted_count)
     all_grown = False
     ready_for_harvest = False
     highest_petals = 0
