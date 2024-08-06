@@ -1,0 +1,3 @@
+[tool.ruff.lint]
+# ignores
+ignore = ["F405","F403"]
